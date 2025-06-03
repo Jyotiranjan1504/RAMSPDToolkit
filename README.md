@@ -1,7 +1,8 @@
 # RAMSPDToolkit
-[![GitHub license](https://img.shields.io/github/license/blacktempel/ramspdtoolkit)](https://github.com/blacktempel/ramspdtoolkit/blob/master/license)
+[![GitHub license](https://img.shields.io/github/license/blacktempel/ramspdtoolkit?label=License)](https://github.com/blacktempel/ramspdtoolkit/blob/master/license)
 [![Build master](https://github.com/Blacktempel/RAMSPDToolkit/actions/workflows/master.yml/badge.svg)](https://github.com/Blacktempel/RAMSPDToolkit/actions/workflows/master.yml)
-[![Nuget](https://img.shields.io/nuget/v/RAMSPDToolkit)](https://www.nuget.org/packages/RAMSPDToolkit/)
+[![Nuget](https://img.shields.io/nuget/v/RAMSPDToolkit?label=NuGet)](https://www.nuget.org/packages/RAMSPDToolkit/)
+[![Nuget](https://img.shields.io/nuget/dt/RAMSPDToolkit?label=NuGet-Downloads)](https://www.nuget.org/packages/RAMSPDToolkit/)
 
 A toolkit for accessing RAMs SPD. Primarily used for reading temperature and data from SPD.<br/>
 Reading from SPD is standardized by [JEDEC](https://www.jedec.org/), for the most part.<br/>
