@@ -164,7 +164,7 @@ namespace RAMSPDToolkit.I2CSMBus
                             break;
                     }
 
-                    SMBusManager.RegisteredSMBuses.Add(bus);
+                    SMBusManager.AddSMBus(bus);
 
                     break;
             }

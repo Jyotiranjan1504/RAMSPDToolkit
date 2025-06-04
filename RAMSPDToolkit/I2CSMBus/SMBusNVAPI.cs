@@ -228,7 +228,7 @@ namespace RAMSPDToolkit.I2CSMBus
                     bus.PortID             = 1;
                 }
 
-                SMBusManager.RegisteredSMBuses.Add(bus);
+                SMBusManager.AddSMBus(bus);
             }
 
             return true;

@@ -241,7 +241,7 @@ namespace RAMSPDToolkit.I2CSMBus
                         LogSimple.LogTrace(
                             $"ADL GPU Device {amdSMBus.PCIVendor:04X}:{amdSMBus.PCIDevice:04X} Subsystem: {amdSMBus.PCISubsystemVendor:04X}:{amdSMBus.PCISubsystemDevice:04X}");
 
-                        SMBusManager.RegisteredSMBuses.Add(amdSMBus);
+                        SMBusManager.AddSMBus(amdSMBus);
                     }
                 }
             }

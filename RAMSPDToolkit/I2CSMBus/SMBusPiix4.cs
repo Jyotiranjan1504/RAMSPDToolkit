@@ -165,7 +165,7 @@ namespace RAMSPDToolkit.I2CSMBus
 
                         piix4Bus0.Piix4_SMBA = 0x0B00;
 
-                        SMBusManager.RegisteredSMBuses.Add(piix4Bus0);
+                        SMBusManager.AddSMBus(piix4Bus0);
 
                         var piix4Bus1 = new SMBusPiix4();
                         piix4Bus1.PortID = SMBusManager.RegisteredSMBuses.Count; // Assign next available port ID
@@ -177,7 +177,7 @@ namespace RAMSPDToolkit.I2CSMBus
 
                         piix4Bus1.Piix4_SMBA = 0x0B20;
 
-                        SMBusManager.RegisteredSMBuses.Add(piix4Bus1);
+                        SMBusManager.AddSMBus(piix4Bus1);
                     }
                 }
             }

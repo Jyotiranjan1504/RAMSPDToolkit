@@ -213,7 +213,7 @@ namespace RAMSPDToolkit.I2CSMBus
 
                                 bus.HasSPDWriteProtection = CheckHasSPDWriteProtection(pciVendor, path);
 
-                                SMBusManager.RegisteredSMBuses.Add(bus);
+                                SMBusManager.AddSMBus(bus);
                             }
                         }
                         else

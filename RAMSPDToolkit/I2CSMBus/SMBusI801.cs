@@ -241,7 +241,7 @@ namespace RAMSPDToolkit.I2CSMBus
                 //Check if write protection is enabled
                 intelBus.HasSPDWriteProtection = (hostConfig & IntelConstants.SMBHSTCFG_SPD_WD) != 0;
 
-                SMBusManager.RegisteredSMBuses.Add(intelBus);
+                SMBusManager.AddSMBus(intelBus);
 
                 return true;
             }
